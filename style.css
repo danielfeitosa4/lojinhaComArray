@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-one: rgb(133, 51, 189);
+  --color-two: rgb(214, 214, 214);
+}
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgb(243, 243, 243);
+}
+
+h1 {
+  color: #fff;
+  background-color: var(--color-one);
+  text-align: center;
+  padding: 10px;
+}
+
+h2 {
+  text-align: left;
+  margin: 1rem auto 0 auto;
+  width: 50vw;
+}
+
+h5 {
+  text-align: left;
+  margin: 0 auto;
+  width: 50vw;
+  font-weight: 200;
+}
+
+
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  height: 35vh;
+  margin: 2rem auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+label {
+  margin-top: 1.2rem;
+  font-size: 24px;
+}
+
+input {
+  padding: 8px;
+  width: 100%;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+}
+
+.buttons {
+  display: block;
+  margin-top: 1.1rem;
+}
+
+.btn {
+  background-color: var(--color-one);
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+table {
+    margin: 2rem auto;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    width: 50vw;
+}
+
+table th {
+  background-color: var(--color-two);
+  padding: 10px;
+}
+
+td {
+  text-align: center;
+  padding: 5px;
+}
+
+img {
+  width: 20px;
+}
+
+@media (max-width: 376px) {
+  .box {
+    width: 100vw;
+    height: 40vh;
+  }
+
+  table {
+    width: 100vw;
+  }
+}
+
+@media (max-width: 415px) {
+  h2 {
+    width: 100%;
+  }
+
+  h5 {
+    width: 100%;
+  }
+
+  .box {
+    width: 100vw;
+    height: 40vh;
+  }
+
+  table {
+    width: 100vw;
+  }
+}
+
+@media (max-width: 821px) {
+  h2 {
+    width: 100%;
+  }
+
+  h5 {
+    width: 100%;
+  }
+
+  .box {
+    width: 100vw;
+    height: 40vh;
+  }
+
+  table {
+    width: 100vw;
+  }
+}
+
+@media (max-width: 913px) {
+  h2 {
+    width: 100%;
+  }
+
+  h5 {
+    width: 100%;
+  }
+  
+  .box {
+    width: 100vw;
+    height: 40vh;
+  }
+
+  table {
+    width: 100vw;
+  }
+}
+
+@media (max-width: 1281px) {
+  h2 {
+    width: 90%;
+  }
+
+  h5 {
+    width: 90%;
+  }
+  
+  .box {
+    width: 90vw;
+    height: 40vh;
+  }
+
+  table {
+    width: 90vw;
+  }
+}

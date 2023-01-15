@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Lojinha 1.0</title>
+</head>
+<body>
+  
+  <div class="card">
+    <h1>Minha Loja 1.0</h1>
+
+    <h2>Produtos</h2>
+    <h5>Lista de produtos da minha loja.</h5>
+
+    <div class="box">
+      <label for="produto">Produto
+        <br>
+        <input type="text" name="produto" id="produto" placeholder="Nome do produto">
+      </label>
+
+      <label for="preco">Preço
+        <br>
+        <input type="number" name="preco" id="preco" placeholder="Valor de produto">
+      </label>
+
+      <div class="buttons">
+        <button class="btn" id="btn1" onclick="produto.salvar()">Salvar</button>
+
+        <button class="btn" id="btn2" onclick="produto.cancelar()">Cancelar</button>
+      </div>
+
+    </div>
+
+    <table border="1">
+      <thead>
+          <th>ID</th>
+          <th>Nome</th>
+          <th>Preço</th>
+          <th>Ações</th>
+      </thead>
+
+      <tbody id="tbody">
+
+      </tbody>
+    </table>
+
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
